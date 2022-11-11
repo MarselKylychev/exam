@@ -1,0 +1,194 @@
+@import "./fonts.css";
+
+:root {
+	--white-color: ;
+	--dark-color: #000000;
+	--greey-color: #999999;
+}
+
+/* BASE CONFIG */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Tenor Sans", Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+ul {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* BASE CONFIG */
+
+/* UNIQUE CONF */
+
+.container {
+	max-width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-content {
+	justify-content: space-between;
+}
+
+.grid__col-6 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__row-6 {
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.grid__col-4 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__row-4 {
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.grid__col-3 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.grid__row-3 {
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.logo__style {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: var(--greey-color);
+}
+
+.reta__style {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: var(--dark-color);
+}
+
+/* UNIQUE CONF */
+
+/* HEADER STYLE START */
+
+.header {
+	padding: 37px 0;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.header__link {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--dark-color);
+}
+
+.header__link:not(:last-child) {
+	margin-right: 40px;
+}
+
+/* HEADER STYLE END */
+
+/* HERO STYLE START */
+
+.hero {
+	padding: 58px 0 60px;
+}
+
+.hero__cards {
+	column-gap: 51px;
+}
+
+.hero__img img {
+	width: 100%;
+	height: 100%;
+}
+
+.hero__info {
+	margin-top: 5px;
+}
+
+.hero__title {
+	padding: 18px 0 27px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.hero__desc {
+	width: 390px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 28px;
+	color: #666666;
+}
+
+/* HERO STYLE END */
+
+/* ABOUT STYLE START */
+
+.grid__cards {
+	column-gap: 20px;
+	row-gap: 74px;
+}
+
+.grid__card img {
+	width: 100%;
+}
+
+.grid__title {
+	padding-top: 24px;
+}
+
+.grid__desc {
+	width: 347px;
+	padding: 18px 0 15px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: var(--dark-color);
+}
+
+/* ABOUT STYLE END */
