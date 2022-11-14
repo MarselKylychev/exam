@@ -238,6 +238,15 @@ img {
 	column-gap: 51px;
 }
 
+.hero__img {
+	position: relative;
+	overflow: hidden;
+}
+
+.hero__img:hover .pic {
+	transform: scale(1.05);
+}
+
 .hero__info {
 	margin-top: 5px;
 }
@@ -272,6 +281,12 @@ img {
 .grid__card {
 	width: 100%;
 	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.grid__card:hover .pic {
+	transform: scale(1.05)
 }
 
 .grid__title {
@@ -302,6 +317,12 @@ img {
 .content__card {
 	width: 100%;
 	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.content__card:hover .pic {
+	transform: scale(1.05);
 }
 
 .content__title {
@@ -343,6 +364,12 @@ img {
 .live__card {
 	width: 100%;
 	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.live__card:hover .pic {
+	transform: scale(1.05);
 }
 
 .live__title {
