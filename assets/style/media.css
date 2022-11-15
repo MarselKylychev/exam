@@ -317,10 +317,12 @@
 
 	.burger {
 		display: block;
+		z-index: 9999;
 	}
 
 	.header__nav {
 		display: none;
+		z-index: 9999;
 	}
 
 	.hero__title {
